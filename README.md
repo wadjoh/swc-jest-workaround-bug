@@ -25,3 +25,5 @@ Output:
       at ModuleMocker.spyOn (node_modules/jest-mock/build/index.js:774:16)
       at Object.spyOn (src/index.spec.ts:4:6)
 ```
+
+The re-export in question in is in: [src/someModules/index.ts](https://github.com/wadjoh/swc-jest-workaround-bug/blob/main/src/someModule/index.ts#L6)
